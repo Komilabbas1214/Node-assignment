@@ -1,0 +1,8 @@
+Q4. How Node.js handles multiple client requests?
+ans:
+1.Node.js uses a single-threaded, event-driven architecture to handle multiple client requests.
+
+2.It uses non-blocking I/O, which means it does not wait for one operation to finish before handling other tasks.
+
+3.The Event Loop manages asynchronous operations and executes their callbacks when they are ready.
+4.This allows Node.js to handle multiple requests efficiently without creating a separate thread for every request.
